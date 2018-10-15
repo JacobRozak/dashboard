@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+  background-image: url('./assets/Background.png');
+  background-size: 1600px 800px;
+  width:1600px;
+  height:900px; 
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.navbar {
+ 
+  margin-top: auto;
+  
+}
+#top-filler {
+  margin-bottom: auto;
+}
+
+#nav-container {
+  align-items: flex-end;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.great{
+  color: white;
+  font-size: 80px;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #f7f747;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 309px;
+  width: 421px;
+  border-radius: 10px;
+}
+.card{
+  width:418px;
+  margin-left:-5%;
+  height: 86%;
+
+}
+/* label color */
+.input-field label {
+  color: white;
+  
+}
+
+#first_name{
+  font-size: 30px;
+  border-bottom: solid 3px white;
+  margin-left: 290px;
+  margin-top: 10%
+}
+#password{
+  font-size: 30px;
+  border-bottom: solid 3px white;
+  margin-left: 390px;
+  margin-top: 9%
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+#but{
+  margin-top:30%;
+   width: 200px;
+   height: 50px;
+   margin-left: 80%;
+   border-radius: 18px;
+   color: white;
+   background-color: #f7f747;
+   font-weight: bold; 
+}
+#main{
+  color: white;
+  font-size: 80px;
+  margin-right: 80px;
+}
+#link{
+  color: #f7f747;
+  font-size: 35px;
+}
+#new{
+  color:white;
+  font-size: 35px;
+}
+#email{
+  font-size: 30px;
+  border-bottom: solid 3px white;
+  margin-left: 390px;
+  margin-top: 9%
+}
+#logout{
+  color:white;
+  
+}
+.weat{
+  color: black;
+}
+#weatherPic{
+  margin-right:70%;
+  position:relative;
+}
+#weatherTxt{
+  margin-top: -20%;
+  position: relative;
+}
+
+#newsTitle{
+  color: black;
+  font-weight:bold;
+}
+#newsDescription{
+  color:black;
+}
